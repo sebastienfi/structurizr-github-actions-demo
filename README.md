@@ -27,7 +27,7 @@ See: [`.github/workflows/structurizr-diagrams-comment.yml`](.github/workflows/st
 
 ## Docker Image
 
-The first action utilizes a Docker image defined at: [sebastienfi/structurizr-cli-with-bonus](https://github.com/sebastienfi/structurizr-cli-with-bonus). It is built on top of the official image `structurizr/cli:latest` and adds the ability to generate diagrams images with PlantUML and commit to a git repository.
+The first action utilizes a Docker image defined at: [sebastienfi/structurizr-cli-with-bonus](https://github.com/sebastienfi/structurizr-cli-with-bonus). It is built on top of the official image [`structurizr/cli:latest`](https://hub.docker.com/r/structurizr/cli) and adds the ability to generate diagrams images with PlantUML and commit to a git repository.
 
 ## Example Model
 
