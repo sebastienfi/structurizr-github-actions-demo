@@ -11,6 +11,10 @@ jobs:
     comment-on-pr:
         if: github.event.workflow_run.conclusion == 'success'
         runs-on: ubuntu-latest
+        permissions:
+            contents: read # Allow to work with the contents of the repository, including git pull.
+            issues: write # Allow to comment on pull requests.
+            pull-requests: write # Allow to list and create pr's comments.
         steps:
         - uses: sebastienfi/structurizr-pr-comment@v1
           with:
