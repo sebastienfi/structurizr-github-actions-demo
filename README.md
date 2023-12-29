@@ -5,8 +5,10 @@ This repository demonstrates the integration of two GitHub Actions for managing 
 ## GitHub Actions Used
 
 1. **Generate Structurizr Diagrams Images from DSL**: Automates the generation of Structurizr diagrams from DSL (Domain-Specific Language) files. [Action Marketplace Link](https://github.com/marketplace/actions/generate-structurizr-diagrams-images-from-dsl)
+-> [See this PR for a demo](https://github.com/sebastienfi/structurizr-github-actions-demo/pull/1).
 
 2. **Comment on PR with Structurizr Diagrams**: Automatically posts comment on pull request with previously generated Structurizr diagrams. [Action Marketplace Link](https://github.com/marketplace/actions/comment-on-pr-with-structurizr-diagrams)
+-> [See this PR for a demo](https://github.com/sebastienfi/structurizr-github-actions-demo/pull/2) of the message.
 
 These actions can be used together for a comprehensive workflow or independently.
 
